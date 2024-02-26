@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "aura-F22LDA0" --Put The Correct Key Here
+getgenv().Key = "aura-" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
@@ -77,9 +77,9 @@ Tab:AddButton({
 }) --This Will Check The Key You Entered
 
 Tab:AddButton({
-	Name = "You Are Not Entering",
+	Name = "Get Key Link",
 	Callback = function()
-      		setclipboard("buy aura.cc first") --This Will Copy The Link Of The Key
+      		setclipboard("buy aura cc first") --This Will Copy The Link Of The Key
   	end    
 }) 
     
